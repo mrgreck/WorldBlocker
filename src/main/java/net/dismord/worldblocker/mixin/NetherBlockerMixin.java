@@ -13,15 +13,15 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(AreaHelper.class)
 public class NetherBlockerMixin {
 
-    @Inject(at = @At("HEAD"), method = "createPortal", cancellable = true)
-    private void init2 (CallbackInfo info) {
+    @Inject(at = @At("HEAD"), method = "createPortal")
+    private void HetherBlock (CallbackInfo info) {
         MinecraftClient client = MinecraftClient.getInstance();
 
         Text text =Text.of("§4Nether is Blocked!!");
 
         client.inGameHud.setTitle(text);
 
-        info.cancel();
+
     }
 
 }

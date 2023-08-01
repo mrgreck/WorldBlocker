@@ -4,13 +4,11 @@
   "package": "net.dismord.worldblocker.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "NetherBlockerMixin"
+    "NetherBlockerMixin",
+    "EndBlockerMixin"
   ],
   "client": [
     "WorldBlockerMixin"
-
-  ],
-  "server": [
 
   ],
   "injectors": {
