@@ -13,7 +13,7 @@
     "sources": ""
   },
 
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/worldblocker/icon.png",
 
   "environment": "*",
@@ -31,6 +31,7 @@
     "fabric-api": "*",
     "minecraft": "~1.19.2",
     "java": ">=17"
+
   },
   "suggests": {
     "another-mod": "*"
